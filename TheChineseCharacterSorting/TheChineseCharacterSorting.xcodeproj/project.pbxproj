@@ -16,6 +16,7 @@
 		84F53B891D73E19700B5E61A /* TheChineseCharacterSortingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F53B881D73E19700B5E61A /* TheChineseCharacterSortingTests.m */; };
 		84F53B941D73E19700B5E61A /* TheChineseCharacterSortingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F53B931D73E19700B5E61A /* TheChineseCharacterSortingUITests.m */; };
 		84F53BE51D7407F200B5E61A /* TableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F53BE41D7407F200B5E61A /* TableHeaderView.m */; };
+		84F53BE71D743ABB00B5E61A /* 录制的gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84F53BE61D743ABB00B5E61A /* 录制的gif.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		84F53B951D73E19700B5E61A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84F53BE31D7407F200B5E61A /* TableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableHeaderView.h; sourceTree = "<group>"; };
 		84F53BE41D7407F200B5E61A /* TableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableHeaderView.m; sourceTree = "<group>"; };
+		84F53BE61D743ABB00B5E61A /* 录制的gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "录制的gif.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		84F53B6D1D73E19700B5E61A /* TheChineseCharacterSorting */ = {
 			isa = PBXGroup;
 			children = (
+				84F53BE61D743ABB00B5E61A /* 录制的gif.gif */,
 				84F53B711D73E19700B5E61A /* AppDelegate.h */,
 				84F53B721D73E19700B5E61A /* AppDelegate.m */,
 				84F53B741D73E19700B5E61A /* ViewController.h */,
@@ -251,6 +254,7 @@
 				84F53B7E1D73E19700B5E61A /* LaunchScreen.storyboard in Resources */,
 				84F53B7B1D73E19700B5E61A /* Assets.xcassets in Resources */,
 				84F53B791D73E19700B5E61A /* Main.storyboard in Resources */,
+				84F53BE71D743ABB00B5E61A /* 录制的gif.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
