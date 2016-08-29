@@ -27,9 +27,8 @@ const float HeaderViewHeight = 24;
     
     if (!_titleLabel) {
         
-        _titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, HeaderViewHeight, HeaderViewHeight)];
-        _titleLabel.font = [UIFont systemFontOfSize:10];
-        _titleLabel.textAlignment = NSTextAlignmentCenter;
+        _titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(HeaderViewHeight, 0, [UIScreen mainScreen].bounds.size.width - 2 * HeaderViewHeight, HeaderViewHeight)];
+        _titleLabel.font = [UIFont systemFontOfSize:HeaderViewHeight / 2.0];
         UIView *bottomLine = [[UIView alloc] initWithFrame:CGRectMake(0, HeaderViewHeight - 1, [UIScreen mainScreen].bounds.size.width, 1)];
         [_titleLabel addSubview:bottomLine];
         [self addSubview:_titleLabel];
