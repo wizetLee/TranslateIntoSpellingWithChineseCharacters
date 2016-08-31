@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84361D301D7658CC0073505E /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 84361D2F1D7658CC0073505E /* User.m */; };
 		84F53B701D73E19700B5E61A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F53B6F1D73E19700B5E61A /* main.m */; };
 		84F53B731D73E19700B5E61A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F53B721D73E19700B5E61A /* AppDelegate.m */; };
 		84F53B761D73E19700B5E61A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F53B751D73E19700B5E61A /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84361D2E1D7658CC0073505E /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		84361D2F1D7658CC0073505E /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		84F53B6B1D73E19700B5E61A /* TheChineseCharacterSorting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheChineseCharacterSorting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F53B6F1D73E19700B5E61A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84F53B711D73E19700B5E61A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 				84F53B751D73E19700B5E61A /* ViewController.m */,
 				84F53BE31D7407F200B5E61A /* TableHeaderView.h */,
 				84F53BE41D7407F200B5E61A /* TableHeaderView.m */,
+				84361D2E1D7658CC0073505E /* User.h */,
+				84361D2F1D7658CC0073505E /* User.m */,
 				84F53B771D73E19700B5E61A /* Main.storyboard */,
 				84F53B7A1D73E19700B5E61A /* Assets.xcassets */,
 				84F53B7C1D73E19700B5E61A /* LaunchScreen.storyboard */,
@@ -279,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84361D301D7658CC0073505E /* User.m in Sources */,
 				84F53BE51D7407F200B5E61A /* TableHeaderView.m in Sources */,
 				84F53B761D73E19700B5E61A /* ViewController.m in Sources */,
 				84F53B731D73E19700B5E61A /* AppDelegate.m in Sources */,
