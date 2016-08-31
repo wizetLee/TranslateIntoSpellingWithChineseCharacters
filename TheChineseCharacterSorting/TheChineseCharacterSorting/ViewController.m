@@ -32,7 +32,7 @@
     self.automaticallyAdjustsScrollViewInsets = false;
     
     self.nickNameArr = [NSMutableArray array];
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < 1; i++) {//测试
         NSArray *arr = @[@"hName",@"cName",@"bName",@"jName",@"dName",@"eName",@"fName",@"aName",@"iName",@"gName",@"最小明",@"小明",@"中明",@"大明",@"特大明",@"_知不鸟",@",花不园",@"987654321",@"Zoom"];
         for (int j = 0; j < arr.count; j++) {
             [self.nickNameArr addObject:arr[j]];
