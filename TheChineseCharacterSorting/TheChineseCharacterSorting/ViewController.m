@@ -33,7 +33,7 @@
     
     self.nickNameArr = [NSMutableArray array];
     for (int i = 0; i < 1; i++) {//测试
-        NSArray *arr = @[@"hName",@"cName",@"bName",@"jName",@"dName",@"eName",@"fName",@"aName",@"iName",@"gName",@"最小明",@"小明",@"中明",@"大明",@"特大明",@"_知不鸟",@",花不园",@"987654321",@"Zoom"];
+        NSArray *arr = @[@"hName",@"cName",@"bName",@"jName",@"dName",@"eName",@"fName",@"aName",@"iName",@"gName",@"最小明",@"小明",@"中明",@"大明",@"特大明",@"_知不鸟",@",花不园",@"987654321",@"Zoom",@"重庆",@"重要",@"沈浩辉",@"厦门"];
         for (int j = 0; j < arr.count; j++) {
             [self.nickNameArr addObject:arr[j]];
         }
@@ -315,6 +315,28 @@
         CFStringTransform((__bridge CFMutableStringRef)str, NULL, kCFStringTransformMandarinLatin, NO);
         CFStringTransform((__bridge CFMutableStringRef)str, NULL, kCFStringTransformStripDiacritics, NO);
         [self.dicForNickName setObject:str forKey:chinese];
+        /*多音字处理*/
+        if ([[(NSString *)chinese substringToIndex:1] compare:@"长"] == NSOrderedSame)
+        {
+            [str replaceCharactersInRange:NSMakeRange(0, 5) withString:@"chang"];
+        }
+        if ([[(NSString *)chinese substringToIndex:1] compare:@"沈"] == NSOrderedSame)
+        {
+            [str replaceCharactersInRange:NSMakeRange(0, 4) withString:@"shen"];
+        }
+        if ([[(NSString *)chinese substringToIndex:1] compare:@"厦"] == NSOrderedSame)
+        {
+            [str replaceCharactersInRange:NSMakeRange(0, 3) withString:@"xia"];
+        }
+        if ([[(NSString *)chinese substringToIndex:1] compare:@"地"] == NSOrderedSame)
+        {
+            [str replaceCharactersInRange:NSMakeRange(0, 3) withString:@"di"];
+        }
+        if ([[(NSString *)chinese substringToIndex:1] compare:@"重"] == NSOrderedSame)
+        {
+            [str replaceCharactersInRange:NSMakeRange(0, 5) withString:@"chong"];
+        }
+        
         return [self.dicForNickName objectForKey:chinese];
     }
 }
